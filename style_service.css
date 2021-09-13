@@ -1,0 +1,65 @@
+*{margin:0; padding:0;}
+body{font-family:arial;}
+
+.ourService { 
+	margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #544e4e;
+    text-align: center;
+    padding: 10px;
+}
+
+.ourPlan {
+    width: 600px;
+    display: flex;
+}
+
+.Plan1 {
+    width: 300px;
+    margin: 10px;
+    margin-left: 50px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px #aaaaaa;
+}
+
+h4 {
+    text-align: center;
+    color: #777272;
+}
+
+.title{
+	color: #8c8484;
+    text-align: center;
+    padding: 10px 0px;
+    line-height: 35px;
+}
+
+h3.mothlyPay {
+    color: #fb630b;
+    text-shadow: 1px 0px;
+}
+
+.description {
+    color: #7b7676;
+	line-height: 30px;
+    padding: 20px;
+    margin-left: 10px;
+}
+
+
+button.clickbtn {
+color: white;
+    padding: 7px 45px;
+    margin: 20px 0px;
+	font-weight: bold;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    background-image: linear-gradient(to right,#ff7600,#ff00eb),radial-gradient(circle at top left,#ff7600, #ff00eb);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+	cursor:pointer;
+}
